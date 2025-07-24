@@ -1,0 +1,4 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Hugo Starter Kit"
+theme = "ananke"
