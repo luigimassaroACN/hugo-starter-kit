@@ -1,11 +1,10 @@
 backend:
   name: git-gateway
   repo: luigimassaroACN/hugo-starter-kit
-  branch: main
-  auth_type: implicit
-  app_id: GITHUB_CLIENT_ID
-  login: true
-  
+  auth_type: pkce
+  app_id: AUTH0_CLIENT_ID
+  base_url: https://dev-5luunm78xnqjk5gc.auth0.com/
+
 media_folder: "static/uploads"
 public_folder: "/uploads"
 
