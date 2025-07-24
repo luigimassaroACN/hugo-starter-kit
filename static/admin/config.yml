@@ -1,12 +1,10 @@
 backend:
-  name: git-gateway
+  name: github
   repo: luigimassaroACN/hugo-starter-kit
   branch: main
   auth_type: pkce
-  app_id: AUTH0_CLIENT_ID
-  base_url: https://dev-5luunm78xnqjk5gc.auth0.com
+  app_id: "${GITHUB_CLIENT_ID}"
   login: true
-  site_domain: hugo-starter-kit.netlify.app
   
 media_folder: "static/uploads"
 public_folder: "/uploads"
